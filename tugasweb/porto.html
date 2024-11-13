@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <style>
+        /* Style untuk keseluruhan body */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #e2cfcf;
+            color: #333;
+        }
+
+        /* Style untuk menu navigasi */
+        .navbar {
+            background-color: #0056b3;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            padding: 10px 0;
+            transition: 0.3s ease;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 14px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #003f7a;
+        }
+
+        /* Gaya untuk konten utama */
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #f2e6e6f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Gaya untuk gambar profil */
+        img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 20px;
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .paragrap {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Style untuk heading utama */
+        h3 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        /* Style untuk tabel pendidikan */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+
+        th, td {
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Style untuk daftar pengalaman dan kemampuan */
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Style untuk link */
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style untuk pembatasan garis */
+        hr {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        /* Style untuk definisi pengalaman */
+        dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Style untuk kontak */
+        .contact-info {
+            margin: 10px 0;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <a href="#about">Tentang Saya</a>
+    <a href="#education">Pendidikan</a>
+    <a href="#experience">Pengalaman</a>
+    <a href="#skills">Kemampuan</a>
+</div>
+
+<div class="content">
+    <!-- Foto dan Info Pribadi -->
+    <img src="foto formal.jpg" alt="Foto Diri" width="130px" height="150px" title="foto diri">
+    
+    <div class="paragrap">
+        <p>Nama : Agus Subekti</p>
+        <p>Nim : 123140104</p>    
+    </div>
+
+    <!-- Kontak Info -->
+    <div class="contact-info">
+        <p>No Telfon : 082170278299</p>
+        <p>Instagram : <a href="https://www.instagram.com/agussubekti974/profilecard/?igsh=MnQxZjhobWxtYW5y" target="_blank" title="kunjungi profil">@agussubekti974</a></p>
+        <p>Email     : <a href="mailto:agus.123140104@student.itera.ac.id" target="_blank" title="kirim pesan">agus.123140104@student.itera.ac.id</a></p>
+    </div>
+
+    <!-- Tentang Saya -->
+    <h3 id="about">Tentang Saya</h3>
+    <p>Saya adalah lulusan SMA Negeri 1 Payakumbuh dengan minat yang mendalam di bidang Teknologi Informasi. Saat ini, saya sedang melanjutkan studi di Institut Teknologi Sumatera dalam program studi Teknik Informatika. Meskipun saya belum memiliki keahlian khusus, saya sangat antusias untuk belajar dan mengembangkan kemampuan di dunia IT. Saya percaya bahwa dengan semangat dan dedikasi, saya dapat berkontribusi dan beradaptasi dengan cepat di lingkungan yang dinamis.</p>
+    <hr>
+
+    <!-- Pendidikan -->
+    <h3 id="education">Pendidikan</h3>
+    <table>
+        <tr>
+            <th>Tahun</th>
+            <th>Jenjang Pendidikan</th>
+        </tr>
+        <tr>
+            <td>2020-2023</td>
+            <td>SMAN 1 Payakumbuh</td>
+        </tr>
+        <tr>
+            <td>2023-Sekarang</td>
+            <td>Institut Teknologi Sumatera</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- Pengalaman -->
+    <h3 id="experience">Pengalaman</h3>
+    <dl>
+        <dt>Organisasi Siswa Intra Sekolah (OSIS) Anggota | SMA Negeri 1 Payakumbuh | 2020 - 2021</dt>
+        <ul>
+            <li>Berpartisipasi dalam berbagai kegiatan sekolah, termasuk acara sosial dan penggalangan dana.</li>
+            <li>Mengembangkan keterampilan kerja sama tim dan kepemimpinan melalui organisasi acara.</li>
+        </ul>
+        <dt>Proyek Kelompok di Kampus Anggota Tim | Institut Teknologi Sumatera | 2023 - Sekarang</dt>
+        <ul>
+            <li>Terlibat dalam proyek pengembangan aplikasi sederhana sebagai bagian dari pembelajaran di kelas.</li>
+            <li>Berkolaborasi dengan teman sekelas untuk merancang dan mengimplementasikan solusi berbasis teknologi.</li>
+        </ul>
+    </dl>
+    <hr>
+
+    <!-- Kemampuan -->
+    <h3 id="skills">Kemampuan</h3>
+    <ul>
+        <li><strong>Dasar-dasar HTML</strong>: Mampu membuat struktur dasar halaman web menggunakan elemen HTML.</li>
+        <li><strong>Dasar-dasar CSS</strong>: Mengerti cara mendesain dan mempercantik tampilan halaman web dengan penggunaan CSS.</li>
+        <li><strong>Kemampuan Belajar yang Tinggi</strong>: Antusias untuk terus belajar dan mengembangkan keterampilan di bidang Teknologi Informasi.</li>
+        <li><strong>Kerja Sama Tim</strong>: Mampu berkolaborasi dengan baik dalam kelompok untuk mencapai tujuan bersama.</li>
+    </ul>
+</div>
+
+</body>
+</html>
